@@ -7,6 +7,7 @@ const FEED_QUERY = gql`
     query {
         feed {
             links {
+                id
                 url
                 description
             }
